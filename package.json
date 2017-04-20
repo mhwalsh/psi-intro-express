@@ -1,0 +1,23 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "- [ ] set up file structure and git init  - [ ] talk about npm - [ ] install express - [ ]  - [ ]  - [ ]  - [ ]  - [ ]",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhwalsh/psi-intro-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhwalsh/psi-intro-express/issues"
+  },
+  "homepage": "https://github.com/mhwalsh/psi-intro-express#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
