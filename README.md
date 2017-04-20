@@ -14,5 +14,7 @@
 - [ ] create a form to send data
 - [ ] install jQuery
 - [ ] to body parser
+- [ ] hook form up
 
-# Lecture Notes
+-- 
+- [ ] break into modules
