@@ -6,7 +6,13 @@
 - [ ] get server to listen: require express, get app, app listen
 - [ ] test it explain 'cannot get /'
 - [ ] explain the REST verbs starting with GET
-- [ ] make it get /
-- [ ]
+- [ ] make it get / with get route and express.static
+- [ ] remove express static
+- [ ] make it get song data
+- [ ] pause for 'What is a server again?'
+- [ ] add songs to song data, POST verb
+- [ ] create a form to send data
+- [ ] install jQuery
+- [ ] to body parser
 
 # Lecture Notes
