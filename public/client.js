@@ -1,5 +1,7 @@
 console.log('test');
 
+// var songArr = [];
+
 $(document).ready(docReady);
 
 function docReady() {
@@ -17,7 +19,7 @@ function addSong() {
 
   var objectToSend = {
     name: songName
-  }
+  };
 
   $.ajax({
     method: 'POST',
@@ -25,6 +27,27 @@ function addSong() {
     data: objectToSend,
     success: function(response) {
       console.log(response);
-    }
-  })
+      // displayTitle(response);
+      }
+  });
+
+  $.ajax({
+    method: 'GET',
+    url: '/',
+    data: objectToSend,
+    success: function(response) {
+      console.log(response);
+      // displayTitle(response);
+      }
+  });
+  // function displayTitle(fooJim) {
+  //   console.log('in displayTitle ->', displayTitle);
+  //   // var songName = String($('#song-name').val());
+  //   // songArr = songArr.push(songName);
+  //   // console.log('this is songArr ->', songArr);
+  //   // $('.container').append('<div>' + songName + '</div>');
+  // }
+/// dev was here
 }
+
+//Work on this the group

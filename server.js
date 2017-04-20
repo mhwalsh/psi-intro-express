@@ -12,9 +12,9 @@ var songData = [
 // middle ware that makes the files
 // in the public folder visible
 app.use(express.static('public'));
-app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.get('/song', function(req, res) {
+app.get('/', function(req, res) {
   console.log('in get song route');
   // all the work
   res.send(songData);
