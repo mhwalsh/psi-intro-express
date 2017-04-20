@@ -1,0 +1,15 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "- [ ] set up file structure and git init  - [ ] talk about npm - npm init and npm install - [ ] install express - [ ]  - [ ]  - [ ]  - [ ]  - [ ]",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
